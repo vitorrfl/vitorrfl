@@ -1,3 +1,37 @@
+<h2 align="left">About Me</h2>
+
+###
+
+<p align="left">Estudante de Análise e Desenvolvimento de Sistemas (ADS) com foco em desenvolvimento Full-Stack. Domino tecnologias como JavaScript, ReactJS, Node.js e TypeScript para criação de aplicações web modernas e escaláveis. Tenho experiência com bancos de dados relacionais (MySQL e PostgreSQL) e utilizo Git, GitHub e GitLab para controle de versão. Busco sempre continuar evoluindo como desenvolvedor e cada vez mais aprofundar meus conhecimentos.</p>
+
+###
+
+<h2 align="left">Techs</h2>
+
+###
+
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=git" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=aws" height="40" alt="amazonwebservices logo"  />
+</div>
+
+###
+
 <h2 align="left">Stats</h2>
 
 ###
