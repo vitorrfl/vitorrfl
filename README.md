@@ -1,45 +1,135 @@
-# 👨‍💻 Vitor Felipe.
+# 👨🏻‍💻 Vitor Felipe
 
-###
+**`Desenvolvedor FullStack`**
 
-<p align="left">Estudante de Análise e Desenvolvimento de Sistemas (ADS) com foco em desenvolvimento Full-Stack. Domino tecnologias como JavaScript, ReactJS, Node.js e TypeScript para criação de aplicações web modernas e escaláveis. Tenho experiência com bancos de dados relacionais (MySQL e PostgreSQL) e utilizo Git, GitHub e GitLab para controle de versão. Busco sempre continuar evoluindo como desenvolvedor e cada vez mais aprofundar meus conhecimentos.</p>
+Estudante de Análise e Desenvolvimento de Sistemas (ADS) com foco em desenvolvimento Full-Stack. Domino tecnologias como JavaScript, Python, ReactJS, Node.js e TypeScript para criação de aplicações web modernas e escaláveis. Tenho experiência com bancos de dados relacionais (MySQL e PostgreSQL) e utilizo Git para controle de versão. Busco sempre continuar evoluindo como desenvolvedor e cada vez mais aprofundar meus conhecimentos.
 
-###
 
-<h2 align="left">Techs</h2>
+---
 
-###
+### 🤖 Linguagens e Tecnologias
 
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=git" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=aws" height="40" alt="amazonwebservices logo"  />
+<img 
+    align="left" 
+    alt="HTML"
+    title="HTML" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="CSS" 
+    title="CSS"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="JavaScript" 
+    title="JavaScript"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="TypeScript"
+    title="TypeScript" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="React"
+    title="React" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="Node.js"
+    title="Node.js" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+/>
+
+<img 
+    align="left" 
+    alt="Java" 
+    title="Java"
+    width="30px" 
+    style="padding-right: 10px;" 
+     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+/>
+<img 
+    align="left" 
+    alt="Python" 
+    title="Python"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
+/>
+
+<img 
+    align="left" 
+    alt="MySQL" 
+    title="MySQL"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="PostgreSQL" 
+    title="PostgreSQL"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg" 
+/>
+<img 
+    align="left" 
+    alt="Git" 
+    title="Git"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
+/>
+
+<br/>
+<br/>
+
+### 📊 Estatísticas
+
+<p>
+  <img
+  align="left"
+  alt="GitHub Stats"https://github-readme-stats.vercel.app/api?username=vitorfl&show_icons=true&theme=tokyonight&locale=pt-br&hide_border=false&count_private=true
+  height="200"
+  style="padding-right: 10px;"
+  src="https://github-readme-stats.vercel.app/api?username=vitorrfl&show_icons=true&theme=gruvbox&locale=pt-br&hide_border"
+/>
+
+<img 
+      align="left" 
+      alt="GitHub Stats" 
+      height="200" 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitorrfl&theme=gruvbox&layout=compact&custom_title=Tecnologias&langs_count=9" 
+  />
+  <div align="left">
+  
+  <img 
+  align="left" 
+      alt="GitHub " 
+      height="200"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=vitorrfl&radius=16&theme=gruvbox&area=true&order=5" height="300" alt="activity-graph graph"  />
 </div>
 
-###
 
-<h2 align="left">Stats</h2>
+  
 
-###
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=vitorrfl&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=gruvbox_light&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vitorrfl&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=gruvbox_light&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vitorrfl&radius=16&theme=gruvbox&area=true&order=5" height="300" alt="activity-graph graph"  />
-</div>
-
-###
+</p>
