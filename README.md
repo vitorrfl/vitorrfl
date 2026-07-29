@@ -105,31 +105,30 @@ Estudante de Análise e Desenvolvimento de Sistemas (ADS) com foco em desenvolvi
 
 ### 📊 Estatísticas
 
+<!--
+  As duas imagens abaixo vêm da instância pública do github-readme-stats,
+  que vive fora do ar (503 / DEPLOYMENT_PAUSED) por estourar a cota do Vercel.
+  Para não depender dela: faça um fork de github.com/anuraghazra/github-readme-stats,
+  suba no Vercel e troque o host "github-readme-stats.vercel.app" pelo seu domínio.
+-->
+
 <p>
   <img
-  align="left"
-  alt="GitHub Stats"https://github-readme-stats.vercel.app/api?username=vitorfl&show_icons=true&theme=tokyonight&locale=pt-br&hide_border=false&count_private=true
-  height="200"
-  style="padding-right: 10px;"
-  src="https://github-readme-stats.vercel.app/api?username=vitorrfl&show_icons=true&theme=gruvbox&locale=pt-br&hide_border"
-/>
-
-<img 
-      align="left" 
-      alt="GitHub Stats" 
-      height="200" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitorrfl&theme=gruvbox&layout=compact&custom_title=Tecnologias&langs_count=9" 
+    height="200"
+    alt="Estatísticas do GitHub de Vitor"
+    src="https://github-readme-stats.vercel.app/api?username=vitorrfl&show_icons=true&theme=gruvbox&locale=pt-br&hide_border=true&count_private=true"
   />
-  <div align="left">
-  
-  <img 
-  align="left" 
-      alt="GitHub " 
-      height="200"
-  src="https://github-readme-activity-graph.vercel.app/graph?username=vitorrfl&radius=16&theme=gruvbox&area=true&order=5" height="300" alt="activity-graph graph"  />
-</div>
+  <img
+    height="200"
+    alt="Linguagens mais usadas"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitorrfl&theme=gruvbox&layout=compact&custom_title=Tecnologias&langs_count=9&hide_border=true"
+  />
+</p>
 
-
-  
-
+<p>
+  <img
+    height="300"
+    alt="Gráfico de atividade dos últimos 30 dias"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=vitorrfl&radius=16&theme=gruvbox&area=true&order=5"
+  />
 </p>
