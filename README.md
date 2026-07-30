@@ -1,6 +1,10 @@
 # 👨🏻‍💻 Vitor Felipe
 
-**Desenvolvedor Full-Stack** · **Fundador da Tecnosup**
+
+-**Desenvolvedor Full-Stack** · **Fundador da Tecnosup**
++**`Desenvolvedor Full-Stack`** &nbsp;·&nbsp; **`Fundador da Tecnosup`**
+
+
 
 Construo e mantenho sistemas web que rodam em produção, com empresas usando todos os dias.
 
