@@ -1,8 +1,7 @@
 # 👨🏻‍💻 Vitor Felipe
 
 
--**Desenvolvedor Full-Stack** · **Fundador da Tecnosup**
-+**`Desenvolvedor Full-Stack`** &nbsp;·&nbsp; **`Fundador da Tecnosup`**
+**`Desenvolvedor Full-Stack`** &nbsp;·&nbsp; **`Fundador da Tecnosup`**
 
 
 
@@ -14,7 +13,7 @@ Trabalho o ciclo inteiro: entender a operação do cliente, modelar os dados, de
 
 Cursando Análise e Desenvolvimento de Sistemas (ADS).
 
-**A maior parte do que desenvolvo hoje é software de cliente e fica em repositório privado. Se quiser ver o código ou conversar sobre um projeto, entre em contato.**
+**`A maior parte do que desenvolvo hoje é software de cliente e fica em repositório privado. Se quiser ver o código ou conversar sobre um projeto, entre em contato.`**
 
 ---
 
