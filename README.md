@@ -1,9 +1,16 @@
 # 👨🏻‍💻 Vitor Felipe
 
-**`Desenvolvedor FullStack`**
+**Desenvolvedor Full-Stack** · **Fundador da Tecnosup**
 
-Estudante de Análise e Desenvolvimento de Sistemas (ADS) com foco em desenvolvimento Full-Stack. Domino tecnologias como JavaScript, Python, ReactJS, Node.js e TypeScript para criação de aplicações web modernas e escaláveis. Tenho experiência com bancos de dados relacionais (MySQL e PostgreSQL) e utilizo Git para controle de versão. Busco sempre continuar evoluindo como desenvolvedor e cada vez mais aprofundar meus conhecimentos.
+Construo e mantenho sistemas web que rodam em produção, com empresas usando todos os dias.
 
+À frente da Tecnosup, empresa de soluções digitais e assistência técnica, atendo negócios que precisam trocar o caderno e a planilha por um sistema de verdade: gestão sob medida, agendamento, controle financeiro e lojas online e mais o suporte que mantém tudo em pé depois da entrega.
+
+Trabalho o ciclo inteiro: entender a operação do cliente, modelar os dados, desenvolver, publicar e dar manutenção com o sistema no ar. Na prática isso é TypeScript com React e Next.js no front, Node.js no back, dados em Firebase, PostgreSQL ou MySQL, deploy na Vercel e Python para automações internas.
+
+Cursando Análise e Desenvolvimento de Sistemas (ADS).
+
+**A maior parte do que desenvolvo hoje é software de cliente e fica em repositório privado. Se quiser ver o código ou conversar sobre um projeto, entre em contato.**
 
 ---
 
