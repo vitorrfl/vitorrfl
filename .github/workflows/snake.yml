@@ -1,0 +1,39 @@
+name: Gera a animacao da cobrinha
+
+# Le o grafico de contribuicao do perfil, gera os SVGs da cobrinha
+# e publica na branch "output". O README aponta para os arquivos
+# dessa branch, entao nada aqui depende de servico de terceiro.
+
+on:
+  schedule:
+    # todo dia as 03:00 UTC (meia-noite em Brasilia)
+    - cron: "0 3 * * *"
+  # permite rodar na mao pelo botao "Run workflow"
+  workflow_dispatch:
+  # regera sempre que o README mudar
+  push:
+    branches:
+      - main
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Gera os SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Publica na branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

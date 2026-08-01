@@ -143,3 +143,21 @@ Cursando Análise e Desenvolvimento de Sistemas (ADS).
     src="https://github-readme-activity-graph.vercel.app/graph?username=vitorrfl&radius=16&theme=gruvbox&area=true&order=5"
   />
 </p>
+
+<!--
+  A cobrinha e gerada pelo workflow .github/workflows/snake.yml,
+  que publica os SVGs na branch "output" deste proprio repositorio.
+  Nao depende de servico externo. Para rodar na mao:
+  aba Actions > "Gera a animacao da cobrinha" > Run workflow.
+-->
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/vitorrfl/vitorrfl/output/snake-dark.svg"
+  />
+  <img
+    alt="Cobrinha comendo o gráfico de contribuições"
+    src="https://raw.githubusercontent.com/vitorrfl/vitorrfl/output/snake.svg"
+  />
+</picture>
