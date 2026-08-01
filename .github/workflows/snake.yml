@@ -26,9 +26,12 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # Cores escritas na mao para casar com a paleta gruvbox
+          # usada nos cards de estatistica do README.
+          # color_dots vai do quadradinho vazio ao de maior atividade.
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+            dist/snake.svg?color_snake=%23fe8019&color_dots=%23ebdbb2,%23d5c4a1,%23bdae93,%23fabd2f,%23fe8019
+            dist/snake-dark.svg?color_snake=%23fe8019&color_dots=%23282828,%23504945,%23bdae93,%23fabd2f,%23fe8019
 
       - name: Publica na branch output
         uses: crazy-max/ghaction-github-pages@v4

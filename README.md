@@ -123,24 +123,32 @@ Cursando Análise e Desenvolvimento de Sistemas (ADS).
   O token da API do GitHub fica na env var PAT_1, no painel do Vercel.
 -->
 
-<p>
+<!--
+  Paleta unica (gruvbox) escrita na mao nos tres blocos abaixo.
+  Nao dependa do parametro "theme": os cards e o grafico de atividade
+  vem de projetos diferentes, e o tema de mesmo nome nao gera a mesma cor.
+    fundo   282828    destaque  fabd2f
+    texto   ebdbb2    linha     fe8019
+-->
+
+<p align="center">
   <img
-    height="200"
+    height="195"
     alt="Estatísticas do GitHub de Vitor"
-    src="https://github-readme-stats-vitorrfl1.vercel.app/api?username=vitorrfl&show_icons=true&theme=gruvbox&locale=pt-br&hide_border=true&count_private=true"
+    src="https://github-readme-stats-vitorrfl1.vercel.app/api?username=vitorrfl&show_icons=true&locale=pt-br&count_private=true&hide_border=true&bg_color=282828&title_color=fabd2f&text_color=ebdbb2&icon_color=fe8019"
   />
   <img
-    height="200"
+    height="195"
     alt="Linguagens mais usadas"
-    src="https://github-readme-stats-vitorrfl1.vercel.app/api/top-langs/?username=vitorrfl&theme=gruvbox&layout=compact&custom_title=Tecnologias&langs_count=9&hide_border=true"
+    src="https://github-readme-stats-vitorrfl1.vercel.app/api/top-langs/?username=vitorrfl&layout=compact&custom_title=Tecnologias&langs_count=8&hide_border=true&bg_color=282828&title_color=fabd2f&text_color=ebdbb2"
   />
 </p>
 
-<p>
+<p align="center">
   <img
-    height="300"
+    width="98%"
     alt="Gráfico de atividade dos últimos 30 dias"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=vitorrfl&radius=16&theme=gruvbox&area=true&order=5"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=vitorrfl&radius=16&area=true&hide_border=true&bg_color=282828&color=ebdbb2&title_color=fabd2f&line=fe8019&point=fabd2f&area_color=fe8019"
   />
 </p>
 
@@ -151,13 +159,16 @@ Cursando Análise e Desenvolvimento de Sistemas (ADS).
   aba Actions > "Gera a animacao da cobrinha" > Run workflow.
 -->
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/vitorrfl/vitorrfl/output/snake-dark.svg"
-  />
-  <img
-    alt="Cobrinha comendo o gráfico de contribuições"
-    src="https://raw.githubusercontent.com/vitorrfl/vitorrfl/output/snake.svg"
-  />
-</picture>
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/vitorrfl/vitorrfl/output/snake-dark.svg"
+    />
+    <img
+      width="98%"
+      alt="Cobrinha comendo o gráfico de contribuições"
+      src="https://raw.githubusercontent.com/vitorrfl/vitorrfl/output/snake.svg"
+    />
+  </picture>
+</p>
