@@ -22,6 +22,8 @@ jobs:
       contents: write
 
     steps:
+      - uses: actions/checkout@v4
+
       - name: Gera os SVGs
         uses: Platane/snk@v3
         with:
@@ -32,6 +34,17 @@ jobs:
           outputs: |
             dist/snake.svg?color_snake=%23fe8019&color_dots=%23ebdbb2,%23d5c4a1,%23bdae93,%23fabd2f,%23fe8019
             dist/snake-dark.svg?color_snake=%23fe8019&color_dots=%23282828,%23504945,%23bdae93,%23fabd2f,%23fe8019
+
+      # Mesmo cuidado do workflow do grafico de atividade: a action troca a
+      # branch "output" inteira pelo conteudo de dist/, entao e preciso trazer
+      # de volta o que o outro workflow publicou la.
+      - name: Preserva o grafico de atividade
+        run: |
+          git fetch origin output --depth 1 || exit 0
+          for f in $(git ls-tree --name-only origin/output); do
+            [ -e "dist/$f" ] || git show "origin/output:$f" > "dist/$f"
+          done
+          ls -la dist/
 
       - name: Publica na branch output
         uses: crazy-max/ghaction-github-pages@v4

@@ -124,9 +124,9 @@ Cursando Análise e Desenvolvimento de Sistemas (ADS).
 -->
 
 <!--
-  Paleta unica (gruvbox) escrita na mao nos tres blocos abaixo.
-  Nao dependa do parametro "theme": os cards e o grafico de atividade
-  vem de projetos diferentes, e o tema de mesmo nome nao gera a mesma cor.
+  Paleta unica (gruvbox) escrita na mao nos blocos abaixo. Os cards de
+  estatistica ainda recebem as cores por query string; as do grafico de
+  atividade vivem no topo de .github/scripts/activity_graph.py.
     fundo   282828    destaque  fabd2f
     texto   ebdbb2    linha     fe8019
 -->
@@ -144,11 +144,22 @@ Cursando Análise e Desenvolvimento de Sistemas (ADS).
   />
 </p>
 
+<!--
+  O grafico de atividade saia do github-readme-activity-graph.vercel.app,
+  que agora responde 402 DEPLOYMENT_DISABLED de forma permanente: o autor
+  estourou a cota do Vercel e o deploy publico foi desativado. Aquele projeto
+  so existe como servico web, entao nao da para rodar como Action.
+  Agora o SVG e gerado pelo workflow .github/workflows/activity-graph.yml
+  (script em .github/scripts/activity_graph.py) e publicado na branch
+  "output", igual a cobrinha. Nao depende mais de servico de terceiro.
+  Para rodar na mao: aba Actions > "Gera o grafico de atividade".
+-->
+
 <p align="center">
   <img
     width="98%"
     alt="Gráfico de atividade dos últimos 30 dias"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=vitorrfl&radius=16&area=true&hide_border=true&bg_color=282828&color=ebdbb2&title_color=fabd2f&line=fe8019&point=fabd2f&area_color=fe8019"
+    src="https://raw.githubusercontent.com/vitorrfl/vitorrfl/output/activity-graph.svg"
   />
 </p>
 

@@ -1,0 +1,56 @@
+name: Gera o grafico de atividade
+
+# Gera o SVG do grafico de atividade dos ultimos 30 dias e publica na
+# branch "output", do mesmo jeito que o workflow da cobrinha. Substitui o
+# github-readme-activity-graph.vercel.app, que saiu do ar de vez
+# (HTTP 402 DEPLOYMENT_DISABLED) por estourar a cota do Vercel.
+
+on:
+  schedule:
+    # todo dia as 03:10 UTC, logo depois da cobrinha
+    - cron: "10 3 * * *"
+  # permite rodar na mao pelo botao "Run workflow"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gera o SVG
+        env:
+          # o token padrao do Actions ja le contribuicoes publicas
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/scripts/activity_graph.py \
+            "${{ github.repository_owner }}" dist/activity-graph.svg
+
+      # A action abaixo substitui a branch "output" inteira pelo conteudo de
+      # dist/. Como a cobrinha publica os SVGs dela na mesma branch, sem este
+      # passo cada workflow apagaria o arquivo do outro. Traz o que ja esta la.
+      - name: Preserva os SVGs da cobrinha
+        run: |
+          git fetch origin output --depth 1 || exit 0
+          for f in $(git ls-tree --name-only origin/output); do
+            [ -e "dist/$f" ] || git show "origin/output:$f" > "dist/$f"
+          done
+          ls -la dist/
+
+      - name: Publica na branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
