@@ -40,6 +40,9 @@ jobs:
       # de volta o que o outro workflow publicou la.
       - name: Preserva o grafico de atividade
         run: |
+          # o Platane/snk roda em Docker como root e deixa dist/ pertencendo
+          # a ele; sem isto o passo nao consegue escrever na pasta
+          sudo chown -R "$(id -u):$(id -g)" dist
           git fetch origin output --depth 1 || exit 0
           for f in $(git ls-tree --name-only origin/output); do
             [ -e "dist/$f" ] || git show "origin/output:$f" > "dist/$f"
