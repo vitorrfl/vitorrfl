@@ -1,7 +1,7 @@
 # 👨🏻‍💻 Vitor Felipe
 
 
-**`Desenvolvedor Full-Stack`** &nbsp;·&nbsp; **`Fundador da Tecnosup`**
+**`Desenvolvedor Full-Stack`** &nbsp;·&nbsp; **`Co-fundador da Tecnosup`**
 
 
 
