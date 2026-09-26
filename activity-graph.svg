@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" font-family="Segoe UI, Ubuntu, sans-serif">
+<defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fe8019" stop-opacity="0.55"/><stop offset="100%" stop-color="#fe8019" stop-opacity="0.02"/></linearGradient></defs>
+<rect width="1000" height="300" rx="16" fill="#282828"/>
+<text x="60" y="38" fill="#fabd2f" font-size="20" font-weight="600">Gráfico de atividade — últimos 30 dias</text>
+<text x="60" y="58" fill="#ebdbb2" font-size="13" opacity="0.75">vitorrfl · 279 contribuições no período</text>
+<line x1="60" y1="70.0" x2="970" y2="70.0" stroke="#ebdbb2" stroke-opacity="0.12" stroke-width="1"/>
+<text x="48" y="74.0" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="end">44</text>
+<line x1="60" y1="113.8" x2="970" y2="113.8" stroke="#ebdbb2" stroke-opacity="0.12" stroke-width="1"/>
+<text x="48" y="117.8" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="end">33</text>
+<line x1="60" y1="157.5" x2="970" y2="157.5" stroke="#ebdbb2" stroke-opacity="0.12" stroke-width="1"/>
+<text x="48" y="161.5" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="end">22</text>
+<line x1="60" y1="201.2" x2="970" y2="201.2" stroke="#ebdbb2" stroke-opacity="0.12" stroke-width="1"/>
+<text x="48" y="205.2" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="end">11</text>
+<line x1="60" y1="245.0" x2="970" y2="245.0" stroke="#ebdbb2" stroke-opacity="0.12" stroke-width="1"/>
+<text x="48" y="249.0" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="end">0</text>
+<path d="M 60.0 209.2 C 65.2 210.5, 80.9 211.2, 91.4 217.2 C 101.8 223.1, 112.3 245.0, 122.8 245.0 C 133.2 239.7, 143.7 194.6, 154.1 185.3 C 164.6 176.1, 175.1 182.7, 185.5 189.3 C 196.0 195.9, 206.4 215.8, 216.9 225.1 C 227.4 234.4, 237.8 241.7, 248.3 245.0 C 258.7 245.0, 269.2 245.0, 279.7 245.0 C 290.1 243.0, 300.6 233.1, 311.0 233.1 C 321.5 233.1, 332.0 243.0, 342.4 245.0 C 352.9 245.0, 363.3 245.0, 373.8 245.0 C 384.3 233.1, 394.7 179.4, 405.2 173.4 C 415.6 167.4, 426.1 201.9, 436.6 209.2 C 447.0 216.5, 457.5 218.5, 467.9 217.2 C 478.4 215.8, 488.9 201.9, 499.3 201.2 C 509.8 200.6, 520.2 206.6, 530.7 213.2 C 541.1 219.8, 551.6 237.0, 562.1 241.0 C 572.5 245.0, 583.0 245.0, 593.4 237.0 C 603.9 217.2, 614.4 125.7, 624.8 121.7 C 635.3 117.7, 645.7 221.1, 656.2 213.2 C 666.7 205.2, 677.1 81.3, 687.6 74.0 C 698.0 66.7, 708.5 148.2, 719.0 169.4 C 729.4 190.6, 739.9 188.7, 750.3 201.2 C 760.8 213.8, 771.3 239.7, 781.7 245.0 C 792.2 245.0, 802.6 245.0, 813.1 233.1 C 823.6 219.1, 834.0 178.0, 844.5 161.5 C 854.9 144.9, 865.4 123.7, 875.9 133.6 C 886.3 143.6, 896.8 202.6, 907.2 221.1 C 917.7 239.7, 928.2 241.0, 938.6 245.0 C 949.1 245.0, 964.8 245.0, 970.0 245.0 L 970.0 245 L 60.0 245 Z" fill="url(#area)"/>
+<path d="M 60.0 209.2 C 65.2 210.5, 80.9 211.2, 91.4 217.2 C 101.8 223.1, 112.3 245.0, 122.8 245.0 C 133.2 239.7, 143.7 194.6, 154.1 185.3 C 164.6 176.1, 175.1 182.7, 185.5 189.3 C 196.0 195.9, 206.4 215.8, 216.9 225.1 C 227.4 234.4, 237.8 241.7, 248.3 245.0 C 258.7 245.0, 269.2 245.0, 279.7 245.0 C 290.1 243.0, 300.6 233.1, 311.0 233.1 C 321.5 233.1, 332.0 243.0, 342.4 245.0 C 352.9 245.0, 363.3 245.0, 373.8 245.0 C 384.3 233.1, 394.7 179.4, 405.2 173.4 C 415.6 167.4, 426.1 201.9, 436.6 209.2 C 447.0 216.5, 457.5 218.5, 467.9 217.2 C 478.4 215.8, 488.9 201.9, 499.3 201.2 C 509.8 200.6, 520.2 206.6, 530.7 213.2 C 541.1 219.8, 551.6 237.0, 562.1 241.0 C 572.5 245.0, 583.0 245.0, 593.4 237.0 C 603.9 217.2, 614.4 125.7, 624.8 121.7 C 635.3 117.7, 645.7 221.1, 656.2 213.2 C 666.7 205.2, 677.1 81.3, 687.6 74.0 C 698.0 66.7, 708.5 148.2, 719.0 169.4 C 729.4 190.6, 739.9 188.7, 750.3 201.2 C 760.8 213.8, 771.3 239.7, 781.7 245.0 C 792.2 245.0, 802.6 245.0, 813.1 233.1 C 823.6 219.1, 834.0 178.0, 844.5 161.5 C 854.9 144.9, 865.4 123.7, 875.9 133.6 C 886.3 143.6, 896.8 202.6, 907.2 221.1 C 917.7 239.7, 928.2 241.0, 938.6 245.0 C 949.1 245.0, 964.8 245.0, 970.0 245.0" fill="none" stroke="#fe8019" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="60.0" cy="209.2" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="91.4" cy="217.2" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="154.1" cy="185.3" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="185.5" cy="189.3" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="216.9" cy="225.1" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="311.0" cy="233.1" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="405.2" cy="173.4" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="436.6" cy="209.2" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="467.9" cy="217.2" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="499.3" cy="201.2" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="530.7" cy="213.2" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="562.1" cy="241.0" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="593.4" cy="237.0" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="624.8" cy="121.7" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="656.2" cy="213.2" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="687.6" cy="74.0" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="719.0" cy="169.4" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="750.3" cy="201.2" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="813.1" cy="233.1" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="844.5" cy="161.5" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="875.9" cy="133.6" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<circle cx="907.2" cy="221.1" r="3.5" fill="#fabd2f" stroke="#282828" stroke-width="1.5"/>
+<text x="60.0" y="269" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="middle">28 ago</text>
+<text x="154.1" y="269" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="middle">31 ago</text>
+<text x="248.3" y="269" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="middle">3 set</text>
+<text x="342.4" y="269" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="middle">6 set</text>
+<text x="436.6" y="269" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="middle">9 set</text>
+<text x="530.7" y="269" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="middle">12 set</text>
+<text x="624.8" y="269" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="middle">15 set</text>
+<text x="719.0" y="269" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="middle">18 set</text>
+<text x="813.1" y="269" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="middle">21 set</text>
+<text x="907.2" y="269" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="middle">24 set</text>
+<text x="970.0" y="269" fill="#ebdbb2" font-size="11" opacity="0.6" text-anchor="middle">26 set</text>
+</svg>
